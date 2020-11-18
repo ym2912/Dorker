@@ -89,7 +89,7 @@ with open('dorks.txt', 'r', encoding='utf8') as dork_file:
     for dork in dork_file:
         dork = dork[:-1]
         print('Проверяю дорк ' + dork)
-        pred = ''
+        # pred = ''
         # Через Selenium заходим на Custom Google Search Engine
         browser.get('https://cse.google.com/cse?cx=009462381166450434430:dqo-6rxvieq')
         # Находим поле ввода поиска
